@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="icon" href="../img/logos/logo.png" type="image/png" sizes="16x16">
+
+
+    <title>Privacy Policy</title>
+    <!-- Custum css -->
+    <link rel="stylesheet" href="../css/index.css">
+    <style>
+        h1 {
+            font-weight: 600;
+        }
+
+        .heading span {
+            color: #c5a37e;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation section start -->
+    <section class="nav-section-fix">
+        <nav class="container-fluid nav-div-fixed">
+            <ul class="d-flex align-items-center justify-content-around ">
+                <li class="ms-5">
+                    <a class="nav-a" href="../../index.html"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <!-- <li>
+                <a class="" href="../../index.html"><i class="fas fa-address-card"></i> About</a>
+            </li>
+            <li>
+                <a class="" href="../../index.html"><i class="fas fa-building"></i> Properties</a>
+            </li> -->
+                <li class="mx-auto">
+                    <a href="../../index.html" class="nav-no-border-bottom"><img src="../img/logos/logo.png" width="90"
+                            height="90" alt="sankalp royal villas"></a>
+                </li>
+                <!-- <li>
+                <a class="" href="../../index.html"><i class="fas fa-images"></i> Gallary</a>
+            </li>
+            <li>
+                <a class="" href="./blogs.html">Blogs</a>
+            </li> -->
+                <li class="me-5">
+                    <button type="button" class="btn btn-outline-primary p-2 mt-n1bc" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Enquire Now</button>
+                </li>
+            </ul>
+        </nav>
+
+
+    </section>
+    <!-- desktop nav end -->
+
+    <!-- mobile view start -->
+    <section class="mob-section-nav py-3">
+        <div class="container-fluid">
+            <div class="mob-nav">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Enquire Now</button>
+            </div>
+        </div>
+    </section>
+    <!-- mobile view end -->
+    <!-- Navbar section end -->
+    <div class="container heading">
+        <div class="text-center">
+            <h1 class="mb-5">PRIVACY <span>POLICY</span></h1>
+        </div>
+        <h6 class="text-start mb-5">Sankalp Developers is committed to protect and maintain the confidentiality of any
+            information relating to our customers. We collect no information about you, other than information
+            automatically collected and stored when you visit our website unless you choose to provide that information
+            to us.</h6>
+        <h4 class="mb-3 fw-bold">DATA PRIVACY</h4>
+        <h6 class="mb-3">When you browse through any website, certain personal information about you can be collected.
+            We
+            automatically collect and temporarily store the following information about your visit:</h6>
+        <h6 class="mb-3">The name of the domain you use to access the Internet, The date and time of your visit, The
+            pages you
+            visited; and The address of the website you came from when you came to visit
+            We use this information for statistical purposes and to help us make our site more useful to visitors.
+            Unless it is specifically stated otherwise, no additional information will be collected about you.</h6>
+        <h6>You do not have to give us personal information to visit this website. If you choose to provide us with
+            additional information about yourself through an e-mail message, form, survey, etc., we will only maintain
+            the information as long as needed to respond to your question or to fulfill the stated purpose of the
+            communication.
+        </h6>
+        <h6 class="mb-3">However, all communications addressed to the website are maintained, as required by law, for
+            historical
+            purposes. These communications are archived monthly but are also protected by the Privacy Act which
+            restricts our use of them, yet permits certain disclosures.
+        </h6>
+        <h4 class="mb-3 fw-bold">DISCLOSURE</h4>
+        <h6 class="mb-3">Sankalp Developers does not disclose, give, sell or transfer any personal information about our
+            visitors unless required by law enforcement or statute. </h6>
+        <h6>Sankalp Developers will not be responsible in any manner for any direct or indirect damages that may arise
+            out of the use of this website.</h6>
+    </div>
+
+    <!-- Enquiry models start -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Send Enquiry</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="form3" target="_self" onsubmit="return postToGoogle3();" action="" autocomplete="off">
+
+                        <div class="text-center">
+                            <span class="badge"><img loading="lazy" src="../img/logos/logo2.png" width="600"
+                                    class="img-fluid" alt=""></span>
+                        </div>
+                        <div class="mb-3">
+                            <input id="fname3" class="form-control" name="entry.1145357987"
+                                placeholder="Enter your name" type="text" required>
+                        </div>
+                        <div class="mb-3">
+                            <input id="fmob3" class="form-control" name="entry.584329651"
+                                placeholder="Enter your 10 Digit Phone Number" type="text" pattern="^\d{10}$" required>
+                        </div>
+                        <div class="mb-3">
+                            <input id="femail3" class="form-control" name="entry.1847546054"
+                                placeholder="Enter your email" type="email" required>
+                        </div>
+                        <div class="text-center mb-3">
+                            <button id="send" type="submit" class="btn btn-primary"><i class="fa fa-envelope"></i>
+                                Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--models end-->
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="../js/form.js"></script>
+
+
+</body>
+
+</html>
